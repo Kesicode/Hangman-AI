@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "hangman",
+    "description": "A simple hangman game built with Expo",
+    "slug": "hangman",
+    "version": "1.0.0",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.hangman",
+      "config": {
+        "usesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/smile.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.example.hangman"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "scheme": "myapp",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "3e8090c5-e0f9-41d9-b151-a32033c591eb"
+      }
+    }
+  }
+}
